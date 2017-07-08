@@ -1,0 +1,56 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.container-persona {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 60px;
+  margin: 0 auto;
+  top: 20px;
+}
+.div-img-persona {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img-persona .img-persona {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 0px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  transform: translate(10px);
+  -ms-transform: translate(10px);
+  -moz-transform: translate(10px);
+  -webkit-transform: translate(10px);
+  -o-transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img-persona .text-persona {
+  font-family: 'Open Sans';
+  position: absolute;
+  z-index: -1;
+  display: block;
+  height: 50%;
+  top: 50%;
+  right: 0px;
+  padding-right: 5px;
+}
+
+
+.div-img-persona:hover .img-persona {
+  transform: translate(-150px, 0px);
+  -ms-transform: translate(-150px, 0px);
+  -moz-transform: translate(-150px, 0px);
+  -webkit-transform: translate(-150px, 0px);
+  -o-transform: translate(-150px, 0px);
+  width: 150px;
+  height: 150px;
+  visibility: visible;
+}
